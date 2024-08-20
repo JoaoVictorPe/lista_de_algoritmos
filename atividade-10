@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+
+
+int main() {
+    int i;
+    for (i = 10; i > 0; i--) {
+        printf("%d ", i);
+    }
+    printf("0\n");
+    return 0;
+}
