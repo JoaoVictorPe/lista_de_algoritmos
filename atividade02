@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main(){
+
+	setlocale(LC_ALL, "portuguese");
+
+	int num = 0;
+	int num1 = 0;
+	printf("Informe um numero: \n"); 
+	scanf("%i", &num);
+	printf("Informe outro numero: \n");
+	scanf("%i", &num1);
+
+	int soma = num + num1; 
+	printf("A soma dos dois numeros é: %i ", soma);
+ 
+
+
+}
